@@ -12,7 +12,7 @@ To access {productname} and Clair images for standalone upgrades, pull from regi
 
 * **Quay:** {productrepo}/{quayimage}:{productminv}
 ifdef::downstream[]
-* **Clair:** {productrepo}/{clairimage}:{productminv}
+* **Clair:** {productrepo}/{clairimage}:{clairproductminv}
 endif::downstream[]
 ifdef::upstream[]
 * **Clair:** {productrepo}/{clairimage}:{clairproductminv}
@@ -26,7 +26,7 @@ endif::upstream[]
 
 * **Quay:** {productrepo}/{quayimage}:{productminv}
 ifdef::downstream[]
-* **Clair:** {productrepo}/{clairimage}:{productminv}
+* **Clair:** {productrepo}/{clairimage}:{clairproductminv}
 endif::downstream[]
 ifdef::upstream[]
 * **Clair:** {productrepo}/{clairimage}:{clairproductminv}
@@ -40,7 +40,7 @@ endif::upstream[]
 
 * **Quay:** {productrepo}/{quayimage}:{productminv}
 ifdef::downstream[]
-* **Clair:** {productrepo}/{clairimage}:{productminv}
+* **Clair:** {productrepo}/{clairimage}:{clairproductminv}
 endif::downstream[]
 ifdef::upstream[]
 * **Clair:** {productrepo}/{clairimage}:{clairproductminv}

@@ -44,5 +44,5 @@ $ sudo podman run -it --rm --name clairv4 \
 -e CLAIR_CONF=/clair/config.yaml \
 -e CLAIR_MODE=combo \
 -v /etc/clairv4/config:/clair:Z \
-{productrepo}/{clairimage}:{productminv}
+{productrepo}/{clairimage}:{clairproductminv}
 ----

@@ -97,5 +97,5 @@ $ sudo podman run -d --name clairv4 \
 -p 8081:8081 -p 8088:8088 \
 -e CLAIR_CONF=/clair/config.yaml \
 -e CLAIR_MODE=combo \
-registry.redhat.io/quay/clair-rhel8:{productminv}
+registry.redhat.io/quay/clair-rhel8:{clairproductminv}
 ----
